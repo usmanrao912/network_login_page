@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.clickable-link {
+    cursor: pointer;
+}
+
+label
+{
+    font-family: poppins;
+    color: #959595;
+}
+
+.input-section
+{
+    background-color: #fff;
+}
+.network-image p 
+{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #555;
+}
+.network-image img{
+    width: 45%;
+}
+
+.field-color
+{
+    border: none !important;
+    background-color: rgb(241, 243, 246) !important;
+    line-height: 2.5 !important;
+}
+.right-image
+{
+    background-color: rgba(241, 243, 246, 1) !important;
+}
+.left-image-margin
+{
+    margin-top: 100px;
+}
+.right-image img
+{
+    margin-top: 90px;
+    width: 70%;
+}
+.img-bg
+{
+    border-radius: 8.078px;
+    background-color: #FD7401;
+    border: 2px solid #FD7401;
+    padding: 10px;
+}
+.mail-image img{
+    width: 50px !important; 
+}
+
+.mail-image{
+    position: absolute;
+    right: 0px;
+    top: 33px;
+}
+.forget { 
+    color: rgba(30, 39, 114, 1) !important; 
+    font-size: 14px;
+    font-family: poppins;
+}
+.btn-color
+{
+    background-color: rgba(253, 116, 1, 1) !important;
+    font-family: poppins;
+    font-weight: 500;
+    border-radius: 8.078px;
+    box-shadow: 0px 12.116715431213379px 24.233430862426758px 0px rgba(253, 116, 1, 0.30);
+    
+}
+.signp-btn{
+    border-radius: 8.078px;
+    border: 1.01px solid #FD7401;
+    font-family: poppins;
+    font-weight: 500;
+}
+.signp-btn button{
+    color: #FD7401;
+}
+
+.or-text
+{
+    color: rgba(194, 194, 194, 1);
+}
+
+.hr-1::before{
+    content: "";
+    width:45%;
+    height: 1px;
+    background-color: rgba(194, 194, 194, 1);
+    position: absolute;
+    top: 50%;
+    bottom: 0px;
+    left: 0px;
+}
+.hr-1::after{
+    content: "";
+    width:45%;
+    height: 1px;
+    background-color: rgba(194, 194, 194, 1);
+    position: absolute;
+    top: 50%;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .left-image-margin{
+        margin-top: 20px;
+    }
+    .form-label{
+        font-size: 14px !important;
+    }
+    .right-image{
+        display: none;
+    }
+}
